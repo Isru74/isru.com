@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
           form.reset();
       } catch (error) {
           console.error("Error:", error);
-          message.textContent = "Error connecting to server.";
-          message.style.color = "";
+          message.textContent = "isru web server error Ref number.";
+          message.style.color = "Red";
       }
   });
 });
